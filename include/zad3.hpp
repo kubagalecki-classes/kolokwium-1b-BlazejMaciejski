@@ -4,7 +4,7 @@
 
 //tutaj szablon ArtystaPlusInstrument
 
-template < typepename T >
+template < typename T >
 class ArtystaPlusInstrument
 {
     ArtystaPlusInstrument(const Artysta& _artysta, const T& _instrument)
