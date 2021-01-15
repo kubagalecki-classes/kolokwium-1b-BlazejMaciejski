@@ -17,7 +17,7 @@ public:
     {}
     Artysta() : pseudonim("Anonim"), liczbaSluchaczy(0) {}
 
-    void graj(std::ostream& stream) const
+    virtual void graj(std::ostream& stream) const
     {
         stream << pseudonim << ": " << std::to_string(liczbaSluchaczy);
     }
