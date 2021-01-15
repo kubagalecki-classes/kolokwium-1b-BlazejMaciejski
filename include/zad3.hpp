@@ -12,7 +12,7 @@ public:
         : a(_artysta), i(_instrument)
     {}
 
-    unsigned koncert() { return i->liczbaUczestnikow(a); }
+    unsigned koncert() { return i.liczbaUczestnikow(a); }
 
 private:
     Artysta a;
