@@ -18,3 +18,15 @@ class RapGwiazda : Artysta
         : pseudonim(_pseudonim), liczbaSluchaczy(_liczbaSluchaczy)
     {}
 };
+
+Artysta* stworzArtyste(const std::string& str)
+{
+    if (str.front == std::toupper(str.front)) 
+    {
+        return new PopGwiazda("BTS", 1234);
+    }
+    else
+    {
+        resturn new RapGwiazda(Ye, 4321);
+    }
+}
