@@ -8,7 +8,7 @@ template < typepename T >
 class ArtystaPlusInstrument
 {
     ArtystaPlusInstrument(const Artysta& _artysta, const T& _instrument)
-        : a(_artysta) i(_instrument)
+        : a(_artysta), i(_instrument)
     {}
 
     unsigned koncert() { return i->liczbaUczestnikow(Artysta->getSluchacze()); }
