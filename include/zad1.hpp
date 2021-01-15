@@ -22,7 +22,7 @@ public:
         stream << pseudonim << ": " << std::to_string(liczbaSluchaczy);
     }
 
-private:
+protected:
     std::string pseudonim;
     unsigned    liczbaSluchaczy;
 };
