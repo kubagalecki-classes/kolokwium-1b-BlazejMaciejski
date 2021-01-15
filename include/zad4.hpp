@@ -5,17 +5,17 @@
 
 // tutaj funkcja stworzZespol
 
-std::vector<Artysta> stworzZespol(int a, const std::string& b)
+std::vector< Artysta > stworzZespol(int a, const std::string& b)
 {
     std::vector< Artysta > wektor;
-    if (b.size() != a) 
+    if (b.size() != a)
     {
-        throw std::logic_error;
+        throw std::logic_error("error");
     }
 
-    for (int i = 0; i < a; i++) 
+    for (int i = 0; i < a; i++)
     {
-        wektor.push_back(new Artysta(b, i + 1));
+        wektor.push_back(Artysta(b, i + 1));
     }
     return wektor;
 }
