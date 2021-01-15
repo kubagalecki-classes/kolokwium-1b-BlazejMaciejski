@@ -5,3 +5,9 @@
 #include <vector>
 
 // tutaj algorytm liczPopularnych(T begin, T end)
+
+template < typename T >
+int liczPopularnych(T a, T b)
+{
+    return std::count_if(a, b, > 100);
+}
