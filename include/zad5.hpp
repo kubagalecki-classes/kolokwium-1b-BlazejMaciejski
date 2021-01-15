@@ -9,5 +9,5 @@
 template < typename T >
 int liczPopularnych(T a, T b)
 {
-    return std::count_if(a, b, [](T obj){return obj.getSluchacze>1000);
-}
+    return std::count_if(a, b, [](T obj) { return obj.getSluchacze > 1000; });
+};
