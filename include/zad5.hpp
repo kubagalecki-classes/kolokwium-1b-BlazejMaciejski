@@ -11,3 +11,5 @@ int liczPopularnych(T a, T b)
 {
     return std::count_if(a, b, [](Artysta obj) { return obj.getSluchacze() > 1000; });
 };
+
+//dziala
