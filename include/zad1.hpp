@@ -19,10 +19,10 @@ public:
 
     void graj(std::ostream& stream)
     {
-        stream << pseudonim + ": " + std::to_string(liczbaSluchaczy);
+        stream << pseudonim << ": " << std::to_string(liczbaSluchaczy);
     }
 
 private:
     std::string pseudonim;
     unsigned    liczbaSluchaczy;
-}
+};
