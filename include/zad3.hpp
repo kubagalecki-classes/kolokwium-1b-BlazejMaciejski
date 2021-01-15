@@ -7,6 +7,7 @@
 template < typename T >
 class ArtystaPlusInstrument
 {
+public:
     ArtystaPlusInstrument(const Artysta& _artysta, const T& _instrument)
         : a(_artysta), i(_instrument)
     {}
