@@ -11,7 +11,7 @@ class ArtystaPlusInstrument
         : a(_artysta), i(_instrument)
     {}
 
-    unsigned koncert() { return i->liczbaUczestnikow(Artysta); }
+    unsigned koncert() { return i->liczbaUczestnikow(a); }
 
 private:
     Artysta a;
